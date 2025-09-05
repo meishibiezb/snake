@@ -19,4 +19,4 @@ CMakeUserPresets.json
 #cmake-build-*
 
 # Customized
-/build/*
+/build/
