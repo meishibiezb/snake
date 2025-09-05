@@ -1,0 +1,12 @@
+@startuml 贪吃蛇
+
+partition "流程"{
+    start
+    while(游戏结束?) is (否)
+        :用户输入;
+        :处理逻辑;
+        :输出画面;
+    endwhile(是)
+    end
+}
+@enduml

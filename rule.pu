@@ -1,0 +1,29 @@
+@startuml 蛇
+
+class 蛇{
+    + vector: 方向
+    + 体节: 头
+    + 体节: 尾
+    --
+    + 前进(): void
+}
+
+enum 类型{
+    体节
+    食物
+    墙
+    空气
+}
+
+class 体节{
+    + *体节 前驱体节
+}
+
+abstract class 格子{
+    + vector: 坐标
+    + 类型: 类型
+    --
+    + 前面一格(vector 方向): 格子
+}
+
+@enduml
