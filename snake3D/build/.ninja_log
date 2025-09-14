@@ -1,0 +1,5 @@
+# ninja log v6
+43	725	7795219842365108	CMakeFiles/snake3D.dir/Shader.cpp.obj	9faf88d67543395d
+30	877	7795219842226853	CMakeFiles/snake3D.dir/glad.c.obj	cc3cb285d56983f
+16	2377	7795219842026228	CMakeFiles/snake3D.dir/snake3D.cpp.obj	223bcfe680e1aa58
+2378	2701	7795219865724440	snake3D.exe	d2f575014b15470f
